@@ -39,7 +39,6 @@ markup:
     tabWidth: 4
 
 
-    
 languages:
   en:
     languageName: "English"
@@ -47,5 +46,5 @@ languages:
     weight: 0
     title: "Join the Road to K8s"
     params:
-        description: "From Zero to Kubernetes. Learn the Fundamentals of Application Deployment"
+        description: "From Zero to Kubernetes. Cloud-Native App Deployment"
         footerText:  "Copyright 2022 Justin Mitchel. All rights reserved"             
