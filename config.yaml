@@ -1,0 +1,51 @@
+baseURL: 'https://www.roadtokubernetes.com/'
+languageCode: 'en-us'
+DefaultContentLanguage: "en"
+title: 'Road to Kubernetes'
+theme: "introduction"
+enableEmoji: true
+rssLimit: 20
+copyright: "2022 Justin Mitchel. All rights reserved"
+
+author:
+  name: Justin Mitchel
+
+      
+params:
+    showLatest: false
+    themeStyle: "light"
+    showRSSButton: false
+    fadeIn: false
+    fadeInIndex: false
+    dateFormat: "Jan 2, 2006"
+    customCSS: ['roadtok8s.css']
+
+markup:
+  defaultMarkdownHandler: "goldmark"
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    hl_Lines: ""
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    timeZone: "America/Chicago"
+    # noClasses = true
+    # For styles, see https://xyproto.github.io/splash/docs/longer/all.html
+    # style: "solarized-dark"
+    tabWidth: 4
+
+
+    
+languages:
+  en:
+    languageName: "English"
+    languageCode: "en-us"
+    weight: 0
+    title: "Join the Road to K8s"
+    params:
+        description: "From Zero to Kubernetes. Learn the Fundamentals of Application Deployment"
+        footerText:  "Copyright 2022 Justin Mitchel. All rights reserved"             
