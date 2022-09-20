@@ -46,5 +46,5 @@ languages:
     weight: 0
     title: "Join the Road to K8s"
     params:
-        description: "From Zero to Kubernetes. Cloud-Native App Deployment"
-        footerText:  "Copyright 2022 Justin Mitchel. All rights reserved"             
+      description: "From Zero to Kubernetes. Cloud-Native App Deployment"
+      footerText:  "Copyright 2022 Justin Mitchel. All rights reserved"             
