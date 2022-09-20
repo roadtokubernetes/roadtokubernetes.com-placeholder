@@ -40,10 +40,10 @@ jobs:
         uses: actions/checkout@v3
         with:
           submodules: recursive
-      - name: Setup Extra Config
-        run: |
-          echo googleAnalytics: \"{{ secrets.GOOGLE_ANALYTICS }}\" >> config.yaml
-          echo env: \"production\" >> config.yaml
+      # - name: Setup Extra Config
+      #   run: |
+      #     echo googleAnalytics: \"{{ secrets.GOOGLE_ANALYTICS }}\" >> config.yaml
+      #     echo env: \"production\" >> config.yaml
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v1
