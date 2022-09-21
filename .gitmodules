@@ -1,9 +1,3 @@
-[submodule "themes/PaperMod"]
-	path = themes/PaperMod
-	url = https://github.com/adityatelange/hugo-PaperMod
 [submodule "themes/introduction"]
 	path = themes/introduction
 	url = https://github.com/victoriadrake/hugo-theme-introduction.git
-[submodule "themes/rtk8s"]
-	path = themes/rtk8s
-	url = https://github.com/roadtokubernetes/rtk8s-theme.git
