@@ -2,7 +2,7 @@ baseURL: 'https://www.roadtokubernetes.com/'
 languageCode: 'en-us'
 DefaultContentLanguage: "en"
 title: 'Road to Kubernetes'
-theme: "introduction"
+theme: "rtk8s"
 enableEmoji: true
 rssLimit: 20
 copyright: "2022 Justin Mitchel. All rights reserved"
