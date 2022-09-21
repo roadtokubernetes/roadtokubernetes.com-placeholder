@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+    <head>
+        {{ block "head" . }}
+        {{ partial "head/metadata.html" . }}
+        {{ if .Site.Params.plausible }}{{ partial "head/plausible.html" . }}{{ end }}
+        {{ partial "head/openGraph.html" . }}
+        {{ partial "head/favicons.html" . }}
+        {{ partial "head/css.html" . }}
+        {{ end }}
+        <!-- Include page specific css -->
+        {{ block "customCSS" . }}
+        {{ end }}
+    </head>
+    <body>
+        <section id="top" class="">
+           
+            <!-- End Title -->
+            <div class="section main-section {{ if .Site.Params.fadeIn | default true }} fade-in two {{ end }}">
+                {{ partial "nav.html" . }}
+
+                {{ block "main" . }}
+                {{ end }}
+
+                {{ block "footer" . }}
+                {{ partial "top-icon-with-hr.html" . }}
+                {{ partial "footer/text.html" . }}
+                {{ end }}
+            </div>
+        </section>
+        {{ block "js-include" . }}
+        {{ partial "footer/scripts.html" . }}
+        {{ end }}
+        <!-- Include page specific scripts -->
+        {{ block "customScripts" . }}
+        {{ end }}
+    </body>
+</html>

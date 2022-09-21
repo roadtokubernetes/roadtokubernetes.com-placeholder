@@ -1,0 +1,13 @@
+$main-section-padding: 1.3rem 1.5rem !default
+$main-section-padding-medium: 4.5rem 1.5rem !default
+$main-section-padding-large: 9rem 1.5rem !default
+
+.main-section
+    padding: $main-section-padding
+    // Responsiveness
+    +desktop
+        // Sizes
+        &.is-medium
+            padding: $main-section-padding-medium
+        &.is-large
+            padding: $main-section-padding-large

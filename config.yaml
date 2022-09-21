@@ -18,7 +18,8 @@ params:
     fadeIn: false
     fadeInIndex: false
     dateFormat: "Jan 2, 2006"
-    customCSS: ['roadtok8s.css']
+    customSASS: ['sass/roadtok8s.sass']
+    customCSS: ['vendor/bootstrap.min.css']
     giscus: 
       repo: roadtokubernetes/roadtokubernetes.com
       repo-id: "R_kgDOICOc7A"
