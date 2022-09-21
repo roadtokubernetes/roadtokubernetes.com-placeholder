@@ -19,6 +19,19 @@ params:
     fadeInIndex: false
     dateFormat: "Jan 2, 2006"
     customCSS: ['roadtok8s.css']
+    giscus: 
+      repo: roadtokubernetes/roadtokubernetes.com
+      repo-id: "R_kgDOICOc7A"
+      category: "Website Comments"
+      category-id: "DIC_kwDOICOc7M4CRi6R"
+      mapping: "pathname"
+      reactions-enabled: "1"
+      emit-metadata: "0"
+      theme: "preferred_color_scheme"
+      lang: "en"
+      strict: "0"
+      input-position: "top"
+      loading: "lazy"
 
 markup:
   defaultMarkdownHandler: "goldmark"
